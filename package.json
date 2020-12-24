@@ -1,0 +1,16 @@
+{
+  "name": "packer_web",
+  "version": "1.0.0",
+  "description": "Bundler using the webPack way",
+  "main": "bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Malkireddy",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel": "^6.23.0"
+  }
+}

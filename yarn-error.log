@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/nrsimha/.nvm/versions/node/v14.15.3/bin/node /Users/nrsimha/.nvm/versions/node/v14.15.3/bin/yarn add @bable/core
+
+PATH: 
+  /Users/nrsimha/.nvm/versions/node/v14.15.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nrsimha/.nvm/versions/node/v14.15.3/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bable%2fcore: Not found
+      at Request.params.callback [as _callback] (/Users/nrsimha/.nvm/versions/node/v14.15.3/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/nrsimha/.nvm/versions/node/v14.15.3/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/nrsimha/.nvm/versions/node/v14.15.3/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/nrsimha/.nvm/versions/node/v14.15.3/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "packer_web",
+    "version": "1.0.0",
+    "description": "Bundler using the webPack way",
+    "main": "bundler.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Siddharth Malkireddy",
+    "license": "ISC",
+    "dependencies": {
+      "babel": "^6.23.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
